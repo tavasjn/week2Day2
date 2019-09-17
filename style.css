@@ -1,0 +1,116 @@
+/* style */
+
+body {
+    min-height: 999vh;
+    background-color: grey;
+}
+
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+}
+
+
+.static-position {
+    background-color: red;
+    position: static;
+}
+
+.relative-position {
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    z-index: 5;
+}
+
+.fixed-position {
+    background-color: green;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.absolute-container {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    background-color: yellow;
+}
+
+
+.absolute-position {
+    position: absolute;
+    background-color: tomato;
+    bottom: 0px;
+    right: 0px;
+}
+
+.sticky-container {
+    background-color: purple;
+    position: sticky;
+    top: 0px;
+    left: 10px;
+}
+
+.inline-block-div {
+    display: inline-block;
+    width: 100%;
+}
+
+span {
+    color: red;
+}
+
+a {
+    color: blue;
+}
+
+.display-none {
+    background-color: black;
+    margin-top: 200px;
+    display: none;
+}
+
+.display-flex {
+    display: flex;
+    width: 100%;
+    height: 25vh;
+    background-color: transparent;
+    margin-top: 250px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-box {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: lightgrey;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+section {
+    width: 40%;
+}
+
+
+.link-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
